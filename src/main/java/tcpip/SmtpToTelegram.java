@@ -66,7 +66,7 @@ public class SmtpToTelegram {
                 line = reader.readLine();
             }
             System.out.println("************Data received***************");
-            // Здесь из data нужно вычленить message и chatID.
+            // TODO Здесь из data нужно вычленить message и chatID.
             // То, как реализовано сейчас - просто заглушка:
             String message =data.substring(0);
             String chatID = ya_telegramId; //чат YA
